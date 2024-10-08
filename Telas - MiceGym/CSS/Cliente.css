@@ -1,0 +1,61 @@
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    /*para passar para a linha debaixo flex-wrap: wrap; */
+}
+
+.texto {
+    margin-top: 50px;
+    background-color: #FFC0CB;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #000; /*para deixar quadradinho*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);/*para deixar quadradinho*/
+    text-align: center;
+}
+@media screen and (max-width: 500px) 
+{
+    .todo {
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) 
+{
+    .todo {
+        display: block;
+        background-color: #FFC0CB;
+    }
+}
+
+header{
+    background-color: #FFC0CB;
+    position: fixed;
+    width: 100%;
+}
+.teste{
+    margin-top: 70px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 66px;
+}
+.opcoes{
+    margin-left: auto;
+}
+.opcoes ul{
+    list-style: none;
+}
+.opcoes ul li{
+    display: inline;
+    font-size: 1.3em;
+    padding: 15px;
+}
+.opcoes ul li a{
+    text-decoration: none;
+    color: black;
+}
